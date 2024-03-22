@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiProductos</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: white;
+        }
+        .link {
+            display: inline-block;
+            margin: 20px;
+        }
+        .text-left {
+            text-align: left;
+        }
+        .info-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .info-container textarea {
+            width: 300px;
+            height: 100px;
+            margin: 10px;
+        }
+        .menu {
+            margin-top: 50px;
+        }
+        .menu-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .menu-item {
+            margin: 10px;
+        }
+        .menu-item img {
+            max-width: 150px;
+            height: auto;
+        }
+        #wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3 {
+            margin: 0 auto; /* Centrar el mapa horizontalmente */
+            width: 400px; /* Ancho fijo para el mapa */
+        }
+    </style>
+</head>
+<body>
+    <h1>MultiProductos</h1>
+    <img src="C:\Users\Jafet\Desktop\LabPractico\1c2134d3-ae0e-4899-b373-266e4b0e0314.jpg" alt="Logo de MultiProductos" style="width: 200px; margin-bottom: 20px;">
+    <div class="container">
+        <div class="text-left" style="display: inline-block; text-align: left;">
+            <h2>¿Quiénes somos?</h2>
+            <div class="info-container">
+                <textarea placeholder="Nosotros, como empresa dedicada a la distribución de productos alimenticios, plásticos y de limpieza, tanto importados como nacionales, nos enorgullece ofrecer un servicio caracterizado por su excelencia y transparencia. Nuestra misión es satisfacer las necesidades de nuestros clientes proporcionando productos de la más alta calidad y brindando un servicio confiable y eficiente. Estamos comprometidos con la excelencia en cada aspecto de nuestras operaciones, desde la selección de productos hasta la entrega final, con el objetivo de superar las expectativas de nuestros clientes y construir relaciones sólidas y duraderas.
+
+
+
+
+
+
+                "></textarea>
+            </div>
+        </div>
+        <div class="menu">
+            <h2>Selecciona un tipo de producto:</h2>
+            <div class="menu-list">
+                <div class="menu-item">
+                    <a href="alimentos.html"><img src="C:\Users\Jafet\Desktop\LabPractico\image.png" alt="Alimentos"></a>
+                    <p>Alimentos Congelados</p>
+                </div>
+                <div class="menu-item">
+                    <a href="productos_plasticos.html"><img src="C:\Users\Jafet\Desktop\LabPractico\PP Plastic.png" alt="Productos Plásticos"></a>
+                    <p>Productos Plásticos</p>
+                </div>
+                <div class="menu-item">
+                    <a href="productos_limpieza.html"><img src="C:\Users\Jafet\Desktop\LabPractico\Green Pastel Leaf Organic Modern Sandal Wood Label (2).png" alt="Productos de Limpieza"></a>
+                    <p>Productos de Limpieza</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2>Encuéntranos en:</h2>
+        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+            <script>
+                (function () {
+                    var setting = {"query":"Plaza Merliot, 17 Avenida Norte, Ciudad Merliot, El Salvador","width":800,"height":600,"satellite":false,"zoom":12,"placeId":"ChIJaaiy2OsvY48Rn5vbtNNETNk","cid":"0xd94c44d3b4db9b9f","coords":[13.6787642,-89.27600040000002],"lang":"es","queryString":"Plaza Merliot, 17 Avenida Norte, Ciudad Merliot, El Salvador","centerCoord":[13.6787642,-89.27600040000002],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"1086091"};
+                    var d = document;
+                    var s = d.createElement('script');
+                    s.src = 'https://1map.com/js/script-for-user.js?embed_id=1086091';
+                    s.async = true;
+                    s.onload = function (e) {
+                        window.OneMap.initMap(setting)
+                    };
+                    var to = d.getElementsByTagName('script')[0];
+                    to.parentNode.insertBefore(s, to);
+                })();
+            </script>
+            <a href="https://1map.com/es/map-embed">1 Map</a>
+        </div>
+    </div>
+</body>
+</html>
+

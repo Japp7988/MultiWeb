@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimentos</title>
+    <style>
+        /* Estilos adicionales */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .link {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .info-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .info-container textarea {
+            width: 600px; /* Ajusta el ancho del área de texto */
+            height: 200px; /* Ajusta la altura del área de texto */
+            margin: 10px;
+            padding: 10px; /* Agrega espacio alrededor del texto */
+            border: 1px solid white; /* Agrega un borde blanco */
+            background-color: rgba(255, 255, 255, 0.1); /* Agrega un fondo semitransparente */
+            color: white; /* Color del texto */
+            resize: none; /* Evita que el área de texto sea redimensionable */
+        }
+
+        .info-container textarea::placeholder {
+            color: rgba(255, 255, 255, 0.5); /* Color del texto de marcador de posición */
+        }
+
+        .menu {
+            margin-top: 50px;
+        }
+
+        .menu-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .menu-item {
+            margin: 10px;
+        }
+
+        .menu-item img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .catalogo {
+            width: 80%;
+            margin: 0 auto;
+            overflow-x: auto; /* Permitir desplazamiento horizontal si el contenido excede el ancho del contenedor */
+            white-space: nowrap; /* Evitar el retorno de línea */
+        }
+
+        .producto {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+        }
+
+        .producto img {
+            width: 150px; /* Tamaño de la imagen del producto */
+            height: 100px; /* Altura de la imagen del producto */
+        }
+
+        .videos {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .videos iframe,
+        .videos audio {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Alimentos</h1>
+
+    <!-- Videos -->
+    <div class="videos">
+        <!-- Video de YouTube -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        <!-- Audio descriptivo -->
+    </div>
+
+    <!-- Catálogo de productos -->
+    <h2>Catálogo de Alimentos</h2>
+    <div class="catalogo">
+        <div class="producto">
+            <img src="C:\Users\Jafet\Desktop\LabPractico\frijoles.jpg" alt="Producto 1">
+            <p>Deliciosos frijoles fritos molidos</p>
+        </div>
+        <div class="producto">
+            <img src="C:\Users\Jafet\Desktop\LabPractico\papas.jpg" alt="Producto 2">
+            <p>Deliciosas papas twister sazonadas</p>
+        </div>
+        <div class="producto">
+            <img src="C:\Users\Jafet\Desktop\LabPractico\hamburguesa.jpg" alt="Producto 3">
+            <p>Deliciosa carne de res a la parrilla</p>
+        </div>
+    </div>
+
+    <!-- Testimonios de Usuarios -->
+    <div class="testimonios">
+        <h2>Testimonios de Consumidores</h2>
+        <audio controls>
+            <source src="C:\Users\Jafet\Desktop\LabPractico\Grabación.m4a" type="audio/mp3">
+            Tu navegador no admite la etiqueta de audio.
+        </audio>
+    </div>
+    <p></p>
+    <!-- Botón de regreso -->
+    <a href="index.html">Regresar a la página principal</a>
+</body>
+</html>
